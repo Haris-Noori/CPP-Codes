@@ -1,3 +1,5 @@
+/* THIS PROGRAM CONVERTS LOWER CASE TO UPPER CASE */
+
 #include <iostream>
 using namespace std;
 
