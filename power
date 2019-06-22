@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int power(int k, int n)
+{
+  if(n == 0)
+  { return 1; }
+  
+  else
+  {  return k * power(k, n-1);  }
+}
+
+int main()
+{
+ cout << power(2,2);
+  
+}
